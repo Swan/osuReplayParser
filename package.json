@@ -1,0 +1,30 @@
+{
+  "name": "osureplayparser",
+  "version": "1.0.0",
+  "description": "An osu! + osu!mania replay parser written in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swan/osuReplayParser.git"
+  },
+  "keywords": [
+    "osu",
+    "replay",
+    "parser",
+    "osr",
+    "osu",
+    "osz"
+  ],
+  "author": "Swan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Swan/osuReplayParser/issues"
+  },
+  "homepage": "https://github.com/Swan/osuReplayParser#readme",
+  "dependencies": {
+    "node-osr": "^1.1.1"
+  }
+}
