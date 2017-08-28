@@ -90,3 +90,9 @@ As you can see, you get the exact keys pressed for keys 1-10. This works on ever
   }
 },
 ```    
+
+# Credits
+The base of this replay parser was originally written by [vignedev](https://github.com/vignedev). Here is the original called [node-osr](https://github.com/vignedev/node-osr). I have only expanded upon it and further parsed the replay data, so most of the credit goes to him.
+
+# LICENSE
+All the code in this repository is licensed under [MIT](https://github.com/Swan/osuReplayParser/blob/master/LICENSE)
