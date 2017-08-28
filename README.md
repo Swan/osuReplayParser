@@ -52,18 +52,20 @@ The replay data object for mania and the other game modes are different. It shou
 **osu! Standard Replay Data Example**
 
 ```json
-{
-  "timeSinceLastAction": 11,
-  "x": 108.4803,
-  "y": 187.5656,
-  "keyPressedBitwise": 10,
-  "keysPressed": {
-    "K1": false,
-    "K2": true,
-    "M1": false,
-    "M2": false
-  }
-},
+"replay_data": [
+  {
+    "timeSinceLastAction": 11,
+    "x": 108.4803,
+    "y": 187.5656,
+    "keyPressedBitwise": 10,
+    "keysPressed": {
+      "K1": false,
+      "K2": true,
+      "M1": false,
+      "M2": false
+    }
+  },
+]
 ```    
 
 **osu!mania Replay Data Example**
@@ -71,24 +73,26 @@ The replay data object for mania and the other game modes are different. It shou
 As you can see, you get the exact keys pressed for keys 1-10. This works on every key mode. Regardless of whether or not the mode has more keys, you'll still receive 10 in the object, however they will always be false.
 
 ```json
-{
-  "timeSinceLastAction": 2,
-  "x": 13,
-  "y": 18.88889,
-  "keyPressedBitwise": 0,
-  "keysPressed": {
-    "Key1": true,
-    "Key2": false,
-    "Key3": true,
-    "Key4": true,
-    "Key5": false,
-    "Key6": false,
-    "Key7": false,
-    "Key8": false,
-    "Key9": false,
-    "Key10": false
-  }
-},
+"replay_data": [
+  {
+    "timeSinceLastAction": 2,
+    "x": 13,
+    "y": 18.88889,
+    "keyPressedBitwise": 0,
+    "keysPressed": {
+      "Key1": true,
+      "Key2": false,
+      "Key3": true,
+      "Key4": true,
+      "Key5": false,
+      "Key6": false,
+      "Key7": false,
+      "Key8": false,
+      "Key9": false,
+      "Key10": false
+    }
+  },
+]
 ```    
 
 # Credits
